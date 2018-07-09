@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title> </title>
+    </head>
+    <body>
+        <script type="text/javascript">
+        // start
+            function getID() {
+                var id = prompt("input ID");
+                return id;
+            }
+
+            function getPW() {
+                var pw = prompt("input PW");
+                return pw;
+            }
+
+            var myAccount = {};
+            myAccount.id = getID();
+            myAccount.pw = getPW();
+            myAccount.printInfo = function() {
+                return "{ ID=" + this.id + "/" + "PW=" + this.pw + "}";
+            }
+
+            document.write(myAccount.printInfo());
+        // end
+        </script>
+    </body>
+</html>
