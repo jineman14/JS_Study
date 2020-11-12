@@ -1,0 +1,11 @@
+{
+    "globalDB": {
+        "host" : "127.0.0.1",
+        "port" : 3306,
+        "user" : "mks",
+        "password" : "1234",
+        "database" : "doz3",
+        "charset" : "utf8mb4",
+        "connectionLimit" : 5
+    }
+}
